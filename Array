@@ -1,1 +1,14 @@
+#include<iostream>
+using namespace std;
 
+int main()
+{
+   int A[5];
+   A[0]=12;
+   A[3]=13;
+   A[4]=15;
+   cout<<A[4]<<endl;
+   cout<<A[3]<<endl;
+
+    return 0;
+}
